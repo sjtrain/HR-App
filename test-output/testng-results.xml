@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-09T23:21:02 PDT" name="Tekarch" finished-at="2023-08-09T23:22:44 PDT" duration-ms="101397">
+    <groups>
+    </groups>
+    <test started-at="2023-08-09T23:21:02 PDT" name="Login" finished-at="2023-08-09T23:22:44 PDT" duration-ms="101397">
+      <class name="com.training.testcases.LeadsTest">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:21:02 PDT" name="beforemethod" finished-at="2023-08-09T23:21:06 PDT" duration-ms="3628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="createNewLead()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:21:06 PDT" name="createNewLead" finished-at="2023-08-09T23:21:20 PDT" duration-ms="14694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewLead -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:21:21 PDT" name="aftermethod" finished-at="2023-08-09T23:21:21 PDT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:21:21 PDT" name="beforemethod" finished-at="2023-08-09T23:21:23 PDT" duration-ms="2514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="defaultView()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:21:23 PDT" name="defaultView" finished-at="2023-08-09T23:22:00 PDT" duration-ms="36338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- defaultView -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:22:00 PDT" name="aftermethod" finished-at="2023-08-09T23:22:00 PDT" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:22:00 PDT" name="beforemethod" finished-at="2023-08-09T23:22:02 PDT" duration-ms="2386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="leadsSelectView()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:22:02 PDT" name="leadsSelectView" finished-at="2023-08-09T23:22:14 PDT" duration-ms="12038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadsSelectView -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:22:14 PDT" name="aftermethod" finished-at="2023-08-09T23:22:15 PDT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:22:15 PDT" name="beforemethod" finished-at="2023-08-09T23:22:17 PDT" duration-ms="2351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="testLeadsTab()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:22:17 PDT" name="testLeadsTab" finished-at="2023-08-09T23:22:29 PDT" duration-ms="11715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeadsTab -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:22:29 PDT" name="aftermethod" finished-at="2023-08-09T23:22:29 PDT" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:22:29 PDT" name="beforemethod" finished-at="2023-08-09T23:22:31 PDT" duration-ms="2295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="todaysLead()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:22:31 PDT" name="todaysLead" finished-at="2023-08-09T23:22:43 PDT" duration-ms="12172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- todaysLead -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:com.training.testcases.LeadsTest@7714e963]" started-at="2023-08-09T23:22:43 PDT" name="aftermethod" finished-at="2023-08-09T23:22:44 PDT" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.training.testcases.LeadsTest -->
+    </test> <!-- Login -->
+  </suite> <!-- Tekarch -->
+</testng-results>
