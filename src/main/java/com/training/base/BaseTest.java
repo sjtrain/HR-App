@@ -5,8 +5,9 @@ import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
 import com.training.utilities.CommonUtilities;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	
@@ -15,10 +16,15 @@ public class BaseTest {
 	CommonUtilities common = new CommonUtilities();
 		
 	public WebDriver getDriver() {
-	 
+		System.setProperty("webdriver.chrome.driver", "/Users/sherin/Downloads/chromedriver-mac-x64/chromedriver");
 		if(driver==null){	
-			WebDriverManager.chromedriver().setup();
-			driver= new ChromeDriver();
+			//WebDriverManager.chromedriver().setup();
+			//driver= new ChromeDriver();
+	        ChromeOptions options = new ChromeOptions();
+	        //options.addArguments("--headless");     
+	        //options.addArguments("--disable-gpu");
+	        //options.addArguments("--window-size=1400,800");  
+	        driver = new ChromeDriver(options); 
 			
 		}
 	    return driver;
